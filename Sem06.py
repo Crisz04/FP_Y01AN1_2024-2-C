@@ -45,6 +45,6 @@ if st.button("Ejecutar ejercicio 4"):
     menores = len([numero for numero in lista_numeros if numero <= 10])
 
     st.write(f"La media es: {media}")
-    st.write(f"Los números mayores a 10 es: "{mayores})
-    st.write(f"Los números iguales a 10 es: "{iguales})
-    st.write(f"Los números menores a 10 es: "{menores})
+    st.write(f"Los números mayores a 10 es: {mayores}")
+    st.write(f"Los números iguales a 10 es: {iguales}")
+    st.write(f"Los números menores a 10 es: {menores}")
