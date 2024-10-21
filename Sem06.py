@@ -40,7 +40,7 @@ ingrese_numero = st.text_input("Ingrese los siguientes 10 números separados por
 if st.button("Ejecutar ejercicio 4"):
     lista_numeros = [int(numero) for numero in ingrese_numero.split(",")]
     media = sum(lista_numeros) / len(lista_numeros)
-    mayores = len([numero for numero in lista_numeros if numero > 10])
+    mayores = numero for numero in lista_numeros if numero > 10
     iguales = len([numero for numero in lista_numeros if numero == 10])
     menores = len([numero for numero in lista_numeros if numero <= 10])
 
