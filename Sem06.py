@@ -13,7 +13,8 @@ if st.button("Ejecutar ejercicio 1"):
 
 #Ejercicio 2: Imprimir los primeros 10 numeros
 
-st.title("Ejercicio 2: 'Imprimir los 10 tprimeros numeros'")
+st.title("Ejercicio 2: 'Imprimir los 10 primeros numeros'")
 
-if i in range(1, 11):
-    st.write(i)
+if st.button("Ejercutar ejercicio 2"):
+    for i in range(1, 11):
+        st.write(i)
