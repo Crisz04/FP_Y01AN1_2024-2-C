@@ -23,7 +23,7 @@ if st.button("Ejercutar ejercicio 2"):
 
 st.subheader("Ejercicio 3: Imprimir la tabla de multiplicar del número ingresado")
 
-num = st.number_input("Ingrese numero")
+num = st.number_input("Ingrese numero", min_value=1)
 
 if st.button("Ejecutar ejercicio 3"):
     for i in range(1,12):
