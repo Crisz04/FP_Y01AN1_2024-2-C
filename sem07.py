@@ -3,7 +3,7 @@ def mostar_menu():
     st.title("Ejemplo de menu")
     st.write("selecciona una opcion del menú")
 
-    menu = ["archivo", "Editar", "Ver", "Salir"]
+    menus = ["archivo", "Editar", "Ver", "Salir"]
     seleccion = ""
 
     while seleccion != "salir":
