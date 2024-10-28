@@ -44,6 +44,6 @@ def verificar_automoviles():
 
     #Ejecutar la función
 
-    if __name__ == __"main"__ 
+    if __name__ == __"main"__:
 
     verificar_automoviles()
