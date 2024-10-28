@@ -25,7 +25,7 @@ def verificar_automoviles():
     
     #Mostrar los datos registrados hasta el momento
 
-    if len(session_state.puntos_contaminantes) > 0 and st.button("calcular resultados"):
+    if len(session_state.puntos_contaminantes) > 0 in st.button("calcular resultados"):
         promedio = sum (st.session_state.puntos_contaminantes) / len(st.session_state.puntos_contaminantes)
         menos_contaminacion = min(st.session_state.puntos_contaminantes)
         mas_contaminacion = max(st.session_state.puntos_contaminantes)
