@@ -16,7 +16,7 @@ def verificar_automoviles():
 
     #Boton para registrar automóvil
 
-    if st.button("Registrar automóviles")
+    if st.button("Registrar automóviles"):
 
     if st.button("Registrar automóvil"):
         st.session_state.puntos_contaminantes.append(puntos)
