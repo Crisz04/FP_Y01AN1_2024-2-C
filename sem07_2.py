@@ -6,7 +6,7 @@ def verificar_automoviles():
 
     #Lista para almacenar los puntos contaminantes
 
-    if 'puntos_contaminantes' not int st.session_state:
+    if 'puntos_contaminantes' not and st.session_state:
 
         session_state.puntos_contaminantes = []
 
