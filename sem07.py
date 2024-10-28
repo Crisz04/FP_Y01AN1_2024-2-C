@@ -6,7 +6,6 @@ def mostar_menu():
     menus = ["archivo", "Editar", "Ver", "Salir"]
     seleccion = ""
 
-    while seleccion != "salir":
         seleccion = st.radio("Menu", menus)
 
         if seleccion == "Archivo":
@@ -17,7 +16,6 @@ def mostar_menu():
             st.write("Seleccionaste: Ver")
         elif seleccion == "Salir":
             st.write("¡Saliendo sel Menu!")
-            break
 
 if __name__ == "__main__":
     mostar_menu()
