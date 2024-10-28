@@ -8,7 +8,7 @@ def verificar_automoviles():
 
     if 'puntos_contaminantes' not in st.session_state:
 
-        session_state.puntos_contaminantes = []
+        st.session_state.puntos_contaminantes = []
 
     #Imput pra los puntos contaminantes del automovil
 
