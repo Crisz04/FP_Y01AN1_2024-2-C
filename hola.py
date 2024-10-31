@@ -1,12 +1,24 @@
+#EJERCICIOS PARA EL CASO PROPUESTO IDL3
 import streamlit as st
 
-#Título de la palicación
-st.title("Ejercicios básicos con bucles en python")
+st.title("EJERCICIOS PROPUESTOS PARA EL CASO PROPUESTO IDL 3")
+st.subheader("Ejercicio 1: Crear una calculadora de las cuatro operaciones básicas, donde se envíe los parámetros a operar y este retorne los resultados")
+st.subheader("Ejercicio 1: Calculadora con las cuatro operaciones")
+numero1 = st.number_input("Ingrese primer número a operar", min_value = 1)
+numero2 = st.number_input("Ingrese segundo número a operar", min_value = 1)
+st.write("Selecciona una de las 4 operaciones")
+menus = ["Multiplicar","Dividir","Sumar","Restar"]
+seleccion = ""
+seleccion = st.radio("4 operaciones", menus)
 
-#Ejercicio 1: Imprimir 10 veces 'Hola mundo'
+def cuatro_operaciones()
+    if seleccion == "Multiplicar"
+        resultado  = numero1 * numero2
+        st.write(f"La multiplicacion de {numero1} X {numero2} = {resultado}")
 
-st.subheader("Ejercicio 1: Imprimir 10 veces 'Hola mundo'")
+    if seleccion == "Dividir"
+        resultado  = numero1 / numero2
+        st.write(f"La división de: {numero1} X {numero2} = {resultado}")
 
-if st.button("Ejecutar ejercicio 1"):
-    for i in range(10):
-        st.write("Hola Mundo")
+if __name__ == "__main__":
+    cuatro_operaciones()
