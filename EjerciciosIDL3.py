@@ -14,11 +14,19 @@ seleccion = st.radio("4 operaciones", menus)
 def cuatro_operaciones():
     if seleccion == "Multiplicar":
         resultado  = numero1 * numero2
-        st.write(f"La multiplicacion de {numero1} X {numero2} = {resultado}")
+        st.write(f"La multiplicacion de: {numero1} X {numero2} = {resultado}")
 
     if seleccion == "Dividir":
         resultado  = numero1 / numero2
-        st.write(f"La división de : {numero1} X {numero2} = {resultado}")
+        st.write(f"La división de: {numero1} X {numero2} = {resultado}")
+
+    if seleccion == "Sumar":
+        resultado  = numero1 + numero2
+        st.write(f"La suma de: {numero1} X {numero2} = {resultado}")
+
+    if seleccion == "Restar":
+        resultado  = numero1 - numero2
+        st.write(f"La resta de: {numero1} X {numero2} = {resultado}")
 
 if __name__ == "__main__":
     cuatro_operaciones()
