@@ -17,6 +17,6 @@ def operaciones():
     elif seleccion == "Dividir":
         resultado = numero1 + numero2
         print(f"El resultado de la suma de es: {numero1} / {numero2} = {resultado}")
-
+        st.write("Dividir")
 if __name__ == "__main__":
     operaciones()
