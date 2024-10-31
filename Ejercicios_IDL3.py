@@ -13,9 +13,9 @@ def operaciones():
     if seleccion == "Multiplicar":
         resultado = numero1 + numero2
         print(f"El resultado de la suma de es: {numero1} x {numero2} = {resultado}")
-    elif seleccion == "dividir":
+    elif seleccion == "Dividir":
         resultado = numero1 + numero2
         print(f"El resultado de la suma de es: {numero1} / {numero2} = {resultado}")
-        
+
 if __name__ == "__main__":
     operaciones()
