@@ -12,11 +12,11 @@ seleccion = ""
 seleccion = st.radio("4 operaciones", menus)
 
 def cuatro_operaciones():
-    if seleccion == "Multiplicar"
+    if seleccion == "Multiplicar":
         resultado  = numero1 * numero2
         st.write(f"La multiplicacion de {numero1} X {numero2} = {resultado}")
 
-    if seleccion == "Dividir"
+    if seleccion == "Dividir":
         resultado  = numero1 / numero2
         st.write(f"La división de : {numero1} X {numero2} = {resultado}")
 
