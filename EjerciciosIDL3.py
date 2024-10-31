@@ -11,7 +11,7 @@ menus = ["Multiplicar","Dividir","Sumar","Restar"]
 seleccion = ""
 seleccion = st.radio("4 operaciones", menus)
 
-def cuatro_operaciones()
+def cuatro_operaciones():
     if seleccion == "Multiplicar"
         resultado  = numero1 * numero2
         st.write(f"La multiplicacion de {numero1} X {numero2} = {resultado}")
