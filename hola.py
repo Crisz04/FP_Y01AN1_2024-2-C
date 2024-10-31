@@ -3,7 +3,7 @@ import streamlit as st
 
 st.title("EJERCICIOS PROPUESTOS PARA EL CASO PROPUESTO IDL 3")
 st.subheader("Ejercicio 1: Crear una calculadora de las cuatro operaciones básicas, donde se envíe los parámetros a operar y este retorne los resultados")
-st.subheader("Ejercicio 1: Calculadora con las cuatro operaciones")
+st.subheader("Ejercicio 1: Calculadora con las cuatro operacioness")
 numero1 = st.number_input("Ingrese primer número a operar", min_value = 1)
 numero2 = st.number_input("Ingrese segundo número a operar", min_value = 1)
 st.write("Selecciona una de las 4 operaciones")
