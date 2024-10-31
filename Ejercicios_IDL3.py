@@ -16,6 +16,9 @@ def cuatro_operaciones()
         resultado  = numero1 * numero2
         st.write(f"La multiplicacion de {numero1} X {numero2} = {resultado}")
 
+    if seleccion == "Dividir"
+        resultado  = numero1 / numero2
+        st.write(f"La división de: {numero1} X {numero2} = {resultado}")
 
 if __name__ == "__main__":
     cuatro_operaciones()
