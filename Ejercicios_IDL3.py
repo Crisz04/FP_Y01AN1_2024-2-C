@@ -26,12 +26,12 @@ def dividir():
     resultado = numero1 / numero2
     print(f"El resultado de la división de es : {numero1} / {numero2} = {resultado}")
 
-
-if seleccion == "Multiplicar":
-    multiplicar()
-elif seleccion == "Dividir":
-    dividir()
-elif seleccion == "Sumar":
-    sumar()
-elif seleccion == "Restar":
-    restar()
+if __name__ == "__main__":
+    if seleccion == "Multiplicar":
+        multiplicar()
+    elif seleccion == "Dividir":
+        dividir()
+    elif seleccion == "Sumar":
+        sumar()
+    elif seleccion == "Restar":
+        restar()
