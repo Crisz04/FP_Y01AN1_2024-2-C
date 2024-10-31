@@ -10,28 +10,11 @@ menus = ["Multiplicar","Dividir","Sumar","Restar"]
 seleccion = ""
 seleccion = st.radio("4 operaciones", menus)
 
-def sumar():
-    resultado = numero1 + numero2
-    print(f"El resultado de la suma de es: {numero1} + {numero2} = {resultado}")
+def operaciones():
+    if seleccion == "Multiplicar":
+        resultado = numero1 + numero2
+        print(f"El resultado de la suma de es: {numero1} + {numero2} = {resultado}")
 
-def restar():
-    resultado = numero1 - numero2
-    print(f"El resultado de la resta de es: {numero1} - {numero2} = {resultado}")
-
-def multiplicar():
-    resultado = numero1 * numero2
-    print(f"El resultado de la multiplicación de es: {numero1} x {numero2} = {resultado}")
-
-def dividir():
-    resultado = numero1 / numero2
-    print(f"El resultado de la división de es : {numero1} / {numero2} = {resultado}")
 
 if __name__ == "__main__":
-    if seleccion == "Multiplicar":
-        multiplicar()
-    elif seleccion == "Dividir":
-        dividir()
-    elif seleccion == "Sumar":
-        sumar()
-    elif seleccion == "Restar":
-        restar()
+    operaciones()
