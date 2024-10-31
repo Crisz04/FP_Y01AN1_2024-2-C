@@ -1,5 +1,8 @@
 #EJERCICIOS PARA EL CASO PROPUESTO IDL3
 import streamlit as st
+
+
+
 def operaciones():
     st.title("EJERCICIOS PROPUESTOS PARA EL CASO PROPUESTO IDL 3")
     st.subheader("Ejercicio 1: Calculadora con las cuatro operaciones")
@@ -14,9 +17,15 @@ def operaciones():
         resultado = numero1 + numero2
         print(f"El resultado de la suma de es: {numero1} x {numero2} = {resultado}")
         st.write("Multiplicar")
+        multiplicar()
     elif seleccion == "Dividir":
         resultado = numero1 + numero2
         print(f"El resultado de la suma de es: {numero1} / {numero2} = {resultado}")
         st.write("Dividir")
+
+def multiplicar():
+    resultado = numero1 * numero2
+    print(f"El resultado de la suma de es: {numero1} x {numero2} = {resultado}")
+
 if __name__ == "__main__":
     operaciones()
