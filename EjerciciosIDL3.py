@@ -1,5 +1,6 @@
 #EJERCICIOS PARA EL IDL3
 import streamlit as st
+import numpy as np
 st.title("EJERCICIOS PROPUESTOS PARA EL CASO PROPUESTO IDL 3")
 
 # Ejercicio..1
@@ -66,9 +67,6 @@ if __name__ == "__main__":
     reiniciar_datos()
 
 # Ejercicio..3
-
-import streamlit as st
-import numpy as np
 
 st.subheader("Ejercicio 3: Multiplos de x entre 0 y 100")
 # Título de la aplicación
