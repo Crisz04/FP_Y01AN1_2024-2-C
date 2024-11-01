@@ -49,8 +49,10 @@ def registro_automovil():
         elif kilometraje == 0:
             st.write("Por favor ingrese el kilometraje ")
 
-        st.write("datos registrados correctamente")
-    
+        st.write("Datos registrados correctaente")
+        st.write(f"La marca es: {marca}")
+        st.write(f"El modelo es: {modelo}")
+        st.write(f"El kilometraje es: {kilometraje}")
 if __name__ == "__main__":
     registro_automovil()
 
