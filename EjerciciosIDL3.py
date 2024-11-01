@@ -42,3 +42,5 @@ kilometraje = st.number_input("Ingrese el kilometraje del automovil")
 if st.button("Registrar datos"):
     if marca == "":
         st.write("Por favor ingrese la marca del automovil")
+    elif modelo == "":
+        st.write("Por favor ingrese el modelo del automovil")
