@@ -69,8 +69,6 @@ if __name__ == "__main__":
 # Ejercicio..3
 
 st.subheader("Ejercicio 3: Multiplos de x entre 0 y 100")
-# Título de la aplicación
-st.title("Múltiplos de X entre 0 y 100")
 
 # Entrada para el valor de X
 x = st.number_input("Ingresa el valor de X:", min_value=1, value=1)
