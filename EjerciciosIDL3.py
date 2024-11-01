@@ -88,7 +88,7 @@ st.write("Array de múltiplos:", array_multiplos)
 # Ejercicio..4
 st.subheader("Ejercicio 4: Array de Números Aleatorios entre 0 y 9")
 
-# Entrada para el tamaño del array
+
 tamaño_array = st.number_input("Ingresa el tamaño del array:", min_value=1, value=10, step=1)
 
 # Generación del array con números aleatorios entre 0 y 9
@@ -100,3 +100,26 @@ media_valores = np.mean(array_numeros)
 # Mostrar resultados
 st.write("Array generado:", array_numeros)
 st.write(f"Media de todos los valores: {media_valores:.2f}")
+
+#Ejercicio..5 
+
+st.subheader("Ejercicio 5: Array de Números ingresados por usuario y determinar cual es el mayor")
+
+# Entrada para el tamaño del array
+tamaño_array = st.number_input("Ingresa el tamaño del array:", min_value=1, value=5, step=1)
+
+# Ingreso de valores del array
+array_numeros = []
+for i in range(int(tamaño_array)):
+    numero = st.number_input(f"Ingrese el número para la posición {i + 1}:", min_value=0)
+    array_numeros.append(numero)
+
+# Convertimos la lista a un array de numpy
+array_numeros = np.array(array_numeros)
+
+# Encontrar el valor máximo en el array
+valor_maximo = np.max(array_numeros)
+
+# Mostrar resultados
+st.write("Array ingresado:", array_numeros)
+st.write(f"El mayor de todos los valores es: {valor_maximo}")
