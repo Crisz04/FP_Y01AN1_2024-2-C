@@ -85,4 +85,18 @@ st.write(f"Sumatoria de los datos: {sumatoria_datos}")
 # Mostrar el array de múltiplos
 st.write("Array de múltiplos:", array_multiplos)
 
-   
+# Ejercicio..4
+st.subheader("Ejercicio 4: Array de Números Aleatorios entre 0 y 9")
+
+# Entrada para el tamaño del array
+tamaño_array = st.number_input("Ingresa el tamaño del array:", min_value=1, value=10, step=1)
+
+# Generación del array con números aleatorios entre 0 y 9
+array_numeros = np.random.randint(0, 10, tamaño_array)
+
+# Cálculo de la media
+media_valores = np.mean(array_numeros)
+
+# Mostrar resultados
+st.write("Array generado:", array_numeros)
+st.write(f"Media de todos los valores: {media_valores:.2f}")
