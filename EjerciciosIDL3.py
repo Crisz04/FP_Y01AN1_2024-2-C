@@ -37,13 +37,11 @@ if __name__ == "__main__":
 st.subheader("Ejercicio 2: Ingresar datos de un automivil")
 marca = st.text_input("Ingrese la marca del automovil")
 modelo = st.text_input("Ingrese el modelo del automovil")   
-kilometraje = st.number_input("Ingrese el kilometraje del automovil")
+kilometraje = st.number_input("Ingrese el kilometraje del automovil", value > 1)
 
 if st.button("Registrar datos"):
     if marca == "":
         st.write("Por favor ingrese la marca del automovil")
-        if marca == "" and modelo == "":
-            st.write("faltan datos")
     elif modelo == "":
         st.write("Por favor ingrese el modelo del automovil")
     elif kilometraje == 0:
