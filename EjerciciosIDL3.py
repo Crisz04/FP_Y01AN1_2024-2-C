@@ -62,7 +62,7 @@ def reiniciar_datos():
 
 if __name__ == "__main__":
     registro_automovil()
-    registro_automovil()
+    reiniciar_datos()
     
 
    
