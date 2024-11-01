@@ -101,9 +101,9 @@ media_valores = np.mean(array_numeros)
 st.write("Array generado:", array_numeros)
 st.write(f"Media de todos los valores: {media_valores:.2f}")
 
-#Ejercicio..5 
+#Ejercicio..6 
 
-st.subheader("Ejercicio 5: Array de Números ingresados por usuario y determinar cual es el mayor")
+st.subheader("Ejercicio 6: Array de Números ingresados por usuario y determinar cual es el mayor")
 
 # Entrada para el tamaño del array
 tamaño_array = st.number_input("Ingresa el tamaño del array:", min_value=1, value=5, step=1)
