@@ -44,3 +44,7 @@ if st.button("Registrar datos"):
         st.write("Por favor ingrese la marca del automovil")
     elif modelo == "":
         st.write("Por favor ingrese el modelo del automovil")
+    elif kilometraje == 0:
+        st.write("Por favor ingrese el kilometraje ")
+    else: 
+        st.write("Falta mas de un dato a registrar")
