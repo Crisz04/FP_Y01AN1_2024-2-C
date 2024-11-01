@@ -64,6 +64,29 @@ def reiniciar_datos():
 if __name__ == "__main__":
     registro_automovil()
     reiniciar_datos()
-    
+
+# Ejercicio..3
+
+import streamlit as st
+import numpy as np
+
+st.subheader("Ejercicio 3: Multiplos de x entre 0 y 100")
+# Título de la aplicación
+st.title("Múltiplos de X entre 0 y 100")
+
+# Entrada para el valor de X
+x = st.number_input("Ingresa el valor de X:", min_value=1, value=1)
+
+# Generación del array de múltiplos de X entre 0 y 100
+array_multiplos = np.arange(0, 101, x)
+cantidad_datos = len(array_multiplos)
+sumatoria_datos = np.sum(array_multiplos)
+
+# Mostrar resultados
+st.write(f"Cantidad de datos almacenados: {cantidad_datos}")
+st.write(f"Sumatoria de los datos: {sumatoria_datos}")
+
+# Mostrar el array de múltiplos
+st.write("Array de múltiplos:", array_multiplos)
 
    
