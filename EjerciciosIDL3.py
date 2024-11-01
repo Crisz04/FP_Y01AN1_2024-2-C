@@ -1,7 +1,9 @@
 #EJERCICIOS PARA EL IDL3
 import streamlit as st
-
 st.title("EJERCICIOS PROPUESTOS PARA EL CASO PROPUESTO IDL 3")
+
+# Ejercicio..1
+
 st.subheader("Ejercicio 1: Calculadora con las cuatro operaciones")
 numero1 = st.number_input("Ingrese primer número a operar", min_value = 1)
 numero2 = st.number_input("Ingrese segundo número a operar", min_value = 1)
@@ -29,3 +31,28 @@ def cuatro_operaciones():
 
 if __name__ == "__main__":
     cuatro_operaciones()
+
+# Ejercicio..2
+
+st.subheader("Ingresar datos de un automivil")
+    marca = st.text_input("Ingrese la marca del automovil")
+    modelo = st.text_input("Ingrese el modelo del automovil")   
+    kilometraje = st.number_input("Ingrese el kilometraje del automovil")
+
+def datos_automovil():
+    
+    if marca == "":
+        st.write("por favor ingresar la marca del automovil")
+    elif modelo == "":
+        st.write("por favor ingresar el modelo del automovil")
+    elif kilometraje == "":
+        st.write("por favor ingresar el kilometraje del automovil")
+
+    else:
+        st.write("Los datos fueron registrados correctamente")
+        st.write({marca})
+        st.write({modelo})
+        st.write({kilometraje})
+
+if __name__ == "__main__"
+    datos_automovil()
