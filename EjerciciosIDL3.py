@@ -53,7 +53,8 @@ def registro_automovil():
         st.write(f"La marca es: {marca}")
         st.write(f"El modelo es: {modelo}")
         st.write(f"El kilometraje es: {kilometraje}")
-    
+
+def reiniciar_datos():
     if st.button("Reiniciar datos"):
         marca = ""
         modelo = ""
@@ -61,5 +62,6 @@ def registro_automovil():
 
 if __name__ == "__main__":
     registro_automovil()
+    reiniciar_datos()
 
    
