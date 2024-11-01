@@ -25,9 +25,9 @@ valor_maximo = np.max(array_numeros)
 st.write("Array ingresado:", array_numeros)
 st.write(f"El mayor de todos los valores es: {valor_maximo}")
 
-# Ejercicio..1
+# Ejercicio..7
 
-st.subheader("Ejercicio 1: Calculadora con las cuatro operaciones")
+st.subheader("Ejercicio 7: Calculadora con las cuatro operaciones")
 numero1 = st.number_input("Ingrese primer número a operar", min_value = 1)
 numero2 = st.number_input("Ingrese segundo número a operar", min_value = 1)
 st.write("Selecciona una de las 4 operaciones")
