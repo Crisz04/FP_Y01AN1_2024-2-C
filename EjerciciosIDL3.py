@@ -55,10 +55,11 @@ def registro_automovil():
         st.write(f"El kilometraje es: {kilometraje}")
 
 def reiniciar_datos():
-    if st.button("Reiniciar datos"):
+    if st.button("Borrar datos registrado"):
         marca = []
         modelo = []
         kilometraje = []
+        st.success(Datos registrados borrados corectamente )
 
 if __name__ == "__main__":
     registro_automovil()
