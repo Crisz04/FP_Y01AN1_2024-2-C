@@ -56,12 +56,13 @@ def registro_automovil():
 
 def reiniciar_datos():
     if st.button("Reiniciar datos"):
-        marca = ""
-        modelo = ""
-        kilometraje = 0
+        marca = []
+        modelo = []
+        kilometraje = []
 
 if __name__ == "__main__":
     registro_automovil()
-    reiniciar_datos()
+    registro_automovil()
+    
 
    
