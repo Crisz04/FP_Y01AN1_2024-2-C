@@ -39,11 +39,17 @@ marca = st.text_input("Ingrese la marca del automovil")
 modelo = st.text_input("Ingrese el modelo del automovil")   
 kilometraje = st.number_input("Ingrese el kilometraje del automovil")
 
-if st.button("Registrar datos"):
-    if marca == "":
-        st.write("Por favor ingrese la marca del automovil")
-    elif modelo == "":
-        st.write("Por favor ingrese el modelo del automovil")
-    elif kilometraje == 0:
-        st.write("Por favor ingrese el kilometraje ")
+def registro_automovil():
+
+    if st.button("Registrar datos"):
+        if marca == "":
+            st.write("Por favor ingrese la marca del automovil")
+        elif modelo == "":
+            st.write("Por favor ingrese el modelo del automovil")
+        elif kilometraje == 0:
+            st.write("Por favor ingrese el kilometraje ")
+    
+if __name__ == "__main__":
+    registro_automovil()
+
    
