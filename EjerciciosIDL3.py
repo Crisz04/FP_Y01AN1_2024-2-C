@@ -38,21 +38,3 @@ st.subheader("Ingresar datos de un automivil")
     marca = st.text_input("Ingrese la marca del automovil")
     modelo = st.text_input("Ingrese el modelo del automovil")   
     kilometraje = st.number_input("Ingrese el kilometraje del automovil")
-
-def datos_automovil():
-    
-    if marca == "":
-        st.write("por favor ingresar la marca del automovil")
-    elif modelo == "":
-        st.write("por favor ingresar el modelo del automovil")
-    elif kilometraje == "":
-        st.write("por favor ingresar el kilometraje del automovil")
-
-    else:
-        st.write("Los datos fueron registrados correctamente")
-        st.write({marca})
-        st.write({modelo})
-        st.write({kilometraje})
-
-if __name__ == "__main__"
-    datos_automovil()
