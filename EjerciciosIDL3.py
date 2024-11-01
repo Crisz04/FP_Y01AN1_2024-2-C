@@ -59,7 +59,7 @@ def reiniciar_datos():
         marca = []
         modelo = []
         kilometraje = []
-        st.success(Datos registrados borrados corectamente )
+        st.success("Datos registrados borrados corectamente")
 
 if __name__ == "__main__":
     registro_automovil()
