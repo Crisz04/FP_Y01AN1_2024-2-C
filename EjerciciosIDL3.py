@@ -34,7 +34,10 @@ if __name__ == "__main__":
 
 # Ejercicio..2
 
-st.subheader("Ejercicio 2:Ingresar datos de un automivil")
+st.subheader("Ejercicio 2: Ingresar datos de un automivil")
 marca = st.text_input("Ingrese la marca del automovil")
 modelo = st.text_input("Ingrese el modelo del automovil")   
 kilometraje = st.number_input("Ingrese el kilometraje del automovil")
+
+if st.button("Registrar datos"):
+    st.write("Los datos se refistraron correctamente")
