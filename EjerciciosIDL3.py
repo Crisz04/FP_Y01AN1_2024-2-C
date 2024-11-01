@@ -68,7 +68,7 @@ if __name__ == "__main__":
 
 # Ejercicio..3
 
-st.subheader("Ejercicio 3: Multiplos de x entre 0 y 100")
+st.subheader("Ejercicio 3: Múltiplos de x entre 0 y 100")
 
 # Entrada para el valor de X
 x = st.number_input("Ingresa el valor de X:", min_value=1, value=1)
