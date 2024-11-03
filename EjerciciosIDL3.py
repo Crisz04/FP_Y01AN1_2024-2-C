@@ -55,9 +55,9 @@ def cuatro_operaciones():
 if __name__ == "__main__":
     cuatro_operaciones()
 
-# Ejercicio..2
+# Ejercicio..8
 
-st.subheader("Ejercicio 2: Ingresar datos de un automivil")
+st.subheader("Ejercicio 8: Ingresar datos de un automivil")
 marca = st.text_input("Ingrese la marca del automovil")
 modelo = st.text_input("Ingrese el modelo del automovil")   
 kilometraje = st.number_input("Ingrese el kilometraje del automovil")
@@ -88,9 +88,9 @@ if __name__ == "__main__":
     registro_automovil()
     reiniciar_datos()
 
-# Ejercicio..3
+# Ejercicio..9
 
-st.subheader("Ejercicio 3: Múltiplos de x entre 0 y 100")
+st.subheader("Ejercicio 9: Múltiplos de x entre 0 y 100")
 
 # Entrada para el valor de X
 x = st.number_input("Ingresa el valor de X:", min_value=1, value=1)
@@ -107,8 +107,8 @@ st.write(f"Sumatoria de los datos: {sumatoria_datos}")
 # Mostrar el array de múltiplos
 st.write("Array de múltiplos:", array_multiplos)
 
-# Ejercicio..4
-st.subheader("Ejercicio 4: Array de Números Aleatorios entre 0 y 9")
+# Ejercicio..10
+st.subheader("Ejercicio 10: Array de Números Aleatorios entre 0 y 9")
 
 
 tamaño_array = st.number_input("Ingresa el tamaño del array:", min_value=1, value=10, step=1)
